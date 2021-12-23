@@ -1,6 +1,6 @@
 {
   "name": "@tokeyjerry/sdk-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cli for developers to release quickly",
   "keywords": [
     "cli",
