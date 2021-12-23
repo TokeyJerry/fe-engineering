@@ -3,5 +3,5 @@
 module.exports = sdkCli;
 
 function sdkCli() {
-    // TODO 
+    // TODO
 }

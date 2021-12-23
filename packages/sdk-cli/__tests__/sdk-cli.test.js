@@ -1,9 +1,7 @@
 'use strict';
 
-console.log(1234)
+const sdkCli = require('..');
 
-// const sdkCli = require('..');
-
-// describe('@tokeyjerry/sdk-cli', () => {
-//     it('needs tests');
-// });
+describe('@tokeyjerry/sdk-cli', () => {
+    it('needs tests');
+});
