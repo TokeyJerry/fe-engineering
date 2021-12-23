@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/TokeyJerry/fe-engineering/compare/@tokeyjerry/sdk-cli@1.0.2...@tokeyjerry/sdk-cli@2.0.0) (2021-12-23)
+
+
+### Features
+
+* a ([03639eb](https://github.com/TokeyJerry/fe-engineering/commit/03639ebf83b4bd0fd413ecc27c75caa91edcf1bb))
+
+
+### BREAKING CHANGES
+
+* test
+
+
+
+
+
 ## [1.0.2](https://github.com/TokeyJerry/fe-engineering/compare/@tokeyjerry/sdk-cli@1.0.1...@tokeyjerry/sdk-cli@1.0.2) (2021-12-23)
 
 
