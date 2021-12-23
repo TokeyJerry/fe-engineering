@@ -1,6 +1,6 @@
 'use strict';
 
-console.log(123)
+console.log(1234)
 
 // const sdkCli = require('..');
 
