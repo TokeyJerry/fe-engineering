@@ -1,7 +1,27 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "b": "lerna bootstrap",
+    "c": "git-cz",
+    "p": "lerna publish"
+  },
   "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "commitizen": "^4.2.4",
+    "cz-lerna-changelog": "^2.0.3",
+    "husky": "^7.0.4",
     "lerna": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
