@@ -6,16 +6,19 @@
     "cli",
     "sdk"
   ],
+  "bin": "bin/index.js",
   "author": "tokeyjerry <jianwen_t@163.com>",
   "homepage": "https://github.com/TokeyJerry/fe-engineering#readme",
   "license": "MIT",
-  "main": "lib/sdk-cli.js",
+  "main": "bin/index.js",
   "directories": {
     "lib": "lib",
+    "bin": "bin",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "publishConfig": {
     "access": "public"
@@ -29,5 +32,8 @@
   },
   "bugs": {
     "url": "https://github.com/TokeyJerry/fe-engineering/issues"
+  },
+  "devDependencies": {
+    "commander": "^8.3.0"
   }
 }

@@ -7,7 +7,9 @@
       "hoist": true
     },
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "message": "chore(release): publish %s",
+      "allowBranch": ["master", "feature/*"]
     }
   },
   "ignoreChanges": [
